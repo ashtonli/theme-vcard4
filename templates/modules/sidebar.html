@@ -27,7 +27,7 @@
                     <ion-icon name="mail-outline"></ion-icon>
                 </div>
                 <div class="contact-info">
-                    <p class="contact-title">邮箱</p>
+                    <p class="contact-title">E-mail</p>
                     <a th:href="'mailto:' + ${theme.config.index.header_contact.email}" class="contact-link"
                         th:text="${theme.config.index.header_contact.email}"></a>
                 </div>
@@ -38,7 +38,7 @@
                     <ion-icon name="phone-portrait-outline"></ion-icon>
                 </div>
                 <div class="contact-info">
-                    <p class="contact-title">电话</p>
+                    <p class="contact-title">Mobile</p>
                     <a href="tel:${theme.config.index.header_contact.phone}" class="contact-link"
                         th:text="${theme.config.index.header_contact.phone}"></a>
                 </div>
@@ -49,7 +49,7 @@
                     <ion-icon name="calendar-outline"></ion-icon>
                 </div>
                 <div class="contact-info">
-                    <p class="contact-title">生日</p>
+                    <p class="contact-title">Birthday</p>
                     <time datetime="${theme.config.index.header_contact.birthday}"
                         th:text="${theme.config.index.header_contact.birthday}"></time>
                 </div>
@@ -60,7 +60,7 @@
                     <ion-icon name="location-outline"></ion-icon>
                 </div>
                 <div class="contact-info">
-                    <p class="contact-title">地区</p>
+                    <p class="contact-title">Location</p>
                     <address th:text="${theme.config.index.header_contact.Location}"></address>
                 </div>
             </li>
