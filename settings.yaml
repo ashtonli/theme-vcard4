@@ -58,6 +58,10 @@ spec:
               options:
                 - label: 微信
                   value: logo-wechat
+                - label: 文件
+                  value: logo-document
+                - label: 网站
+                  value: logo-home
                 - label: 抖音
                   value: logo-tiktok
                 - label: Steam
